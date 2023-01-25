@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_centerInParent="true"
+        android:background="@color/blueColor2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="برای ادامه کار به دسترسی نیاز داریم.\n روی دکمه زیر کلیک کرده به قسمت Download service رفته و CheckLink را فعال نمایید"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:layout_above="@id/btnPermission"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:text="دادن دسترسی"
+            android:gravity="center"
+            android:background="@color/blueNafti"
+            android:id="@+id/btnPermission"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/colorWhite"/>
+    </RelativeLayout>
+</RelativeLayout>
